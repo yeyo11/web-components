@@ -1,5 +1,5 @@
 {
-  "name": "my-web-components",
+  "name": "@yeyo11/my-web-components",
   "version": "1.0.0",
   "description": "Framework agnostic web components library",
   "type": "module",

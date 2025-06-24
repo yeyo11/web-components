@@ -22,6 +22,15 @@ web-components/
 - `src/index.ts`: Entry point for the components library.
 - `src/components/button.component.ts`: Implementation of a custom button web component.
 
+# Usage with React and Angular
+
+See [`USAGE_WITH_FRAMEWORKS.md`](./USAGE_WITH_FRAMEWORKS.md) for detailed instructions on how to use this library with React (including TypeScript support) and Angular.
+
+- React: Type-safe usage with custom elements in JSX
+- Angular: Schema configuration and usage in templates
+
+This ensures smooth integration of your Web Components in modern UI frameworks.
+
 ## Getting Started
 
 ### Installation

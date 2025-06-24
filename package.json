@@ -1,0 +1,39 @@
+{
+  "name": "my-web-components",
+  "version": "1.0.0",
+  "description": "Framework agnostic web components library",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc && npm run build:copy",
+    "build:copy": "cp src/*.css dist/ 2>/dev/null || true",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "lit": "^3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "keywords": [
+    "web-components",
+    "custom-elements",
+    "framework-agnostic",
+    "typescript"
+  ],
+  "license": "MIT"
+}

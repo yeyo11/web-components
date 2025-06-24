@@ -1,3 +1,13 @@
+## [1.0.1](https://github.com/yeyo11/web-components/compare/v1.0.0...v1.0.1) (2025-06-24)
+
+
+### Bug Fixes
+
+* rename workflow to 'Release' and update permissions for GitHub actions ([f302c64](https://github.com/yeyo11/web-components/commit/f302c64c34fe7b2fee5215025b4e3af3f10965e2))
+* rename workflow to 'Semantic Release' and streamline permissions ([0738294](https://github.com/yeyo11/web-components/commit/07382944fe4605ec1207f85a1789587ec37008f2))
+* update environment variable name for NPM token in release workflow ([8e434e3](https://github.com/yeyo11/web-components/commit/8e434e35abc0226f2faed966eddd3e140015af03))
+* update semantic-release configuration with proper tag format ([d91881b](https://github.com/yeyo11/web-components/commit/d91881b58cb4ab90a84b21c000fd62083821827b))
+
 # 1.0.0 (2025-06-24)
 
 

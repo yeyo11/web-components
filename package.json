@@ -1,6 +1,6 @@
 {
   "name": "@yeyo11/my-web-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Framework agnostic web components library",
   "type": "module",
   "main": "dist/index.js",
